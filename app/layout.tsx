@@ -1,3 +1,5 @@
+import React from "react";
+
 export const metadata = {
   title: "my-codex-app",
   description: "Next.js minimal app",
@@ -14,3 +16,4 @@ export default function RootLayout({
     </html>
   );
 }
+
