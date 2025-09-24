@@ -5,15 +5,13 @@ export const metadata = {
   description: "Next.js minimal app",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout(
+  { children }: { children: React.ReactNode }
+) {
   return (
     <html lang="ja">
+      <head />
       <body style={{ margin: 0 }}>{children}</body>
     </html>
   );
 }
-
